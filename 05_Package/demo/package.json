@@ -1,0 +1,17 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "demo包",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Chan",
+  "license": "ISC",
+  "dependencies": {
+    "art-template": "^4.13.2"
+  },
+  "devDependencies": {
+    "es-checker": "^1.4.2"
+  }
+}
