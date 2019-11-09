@@ -45,7 +45,7 @@ http.createServer((req, resp) => {
     } else if(req.url.startsWith('/list')) {
         readFile('list.html', resp);
     } else {
-        resp.writeHead(200, {
+        resp.writeHead(404, {
             'Content-Type': 'text/html;charset=utf-8'
         });    
         resp.end('404 NOT FOUND');
