@@ -1,0 +1,20 @@
+{
+    "stu1": {
+        "chinese": 100,
+        "math": 149,
+        "english": 130,
+        "summary": 280
+    },
+    "stu2": {
+        "chinese": 120,
+        "math": 133,
+        "english": 114,
+        "summary": 279
+    },
+    "stu3": {
+        "chinese": 115,
+        "math": 138,
+        "english": 136,
+        "summary": 272
+    }
+}
