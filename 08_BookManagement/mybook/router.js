@@ -8,6 +8,12 @@ const express = require('express');
 const router = express.Router();
 const service = require('./service.js');
 
+//主页
 router.get('/', service.showIndex);
+
+//添加图书
+router.get('/toAddBook', service.showToAddBook);
+
+router.post('/addBook', service.addBook);
 
 module.exports = router;

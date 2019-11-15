@@ -12,6 +12,9 @@ const template = require('art-template');
 const bodyParser = require('body-parser');
 const app = express();
 
+//启动静态资源，www是虚拟路径
+app.use('/www', express.static('public'));
+
 //设置模板引擎
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'art');
@@ -27,5 +30,9 @@ app.use(router);
 
 //监听端口
 app.listen(3000, () => {
+    console.log('server is running...');
+});
+
+app.listen(3000, '10.10.17.75', () => {
     console.log('server is running...');
 });

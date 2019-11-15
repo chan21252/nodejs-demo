@@ -5,35 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>图书管理系统</title>
-    <style type="text/css">
-        .title {
-            text-align: center;
-            background-color: lightgreen;
-            height: 50px;
-            line-height: 50px;
-            font-size: 24px;
-        }
-
-        .content {
-            background-color: lightblue;
-        }
-
-        .content table {
-            width: 100%;
-            text-align: center;
-            border-collapse: collapse;
-        }
-
-        .content td,th {
-            border: 1px solid #afafaf;
-            height: 40px;
-            line-height: 40px;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="/www/style.css">
 </head>
 <body>
     <div class="title">图书管理系统
-        <a href="#">添加图书</a>
+        <a href="/toAddBook">添加图书</a>
     </div>
     <div class="content">
         <table>

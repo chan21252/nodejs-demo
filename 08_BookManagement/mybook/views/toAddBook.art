@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>图书管理系统-添加图书</title>
+</head>
+<body>
+    <div>添加图书</div>
+    <form action="/addBook" method="post">
+        <label for="name">名称：</label><input type="text" name="name" id="name" required="required"><br/>
+        <label for="author">作者：</label><input type="text" name="author" id="author" required="required"><br/>
+        <label for="category">分类：</label><input type="text" name="category" id="category" required="required"><br/>
+        <label for="desc">描述：</label><input type="text" name="desc" id="desc" required="required"><br/>
+        <input type="submit" value="提交" id="submit"><br/>
+    </form>
+</body>
+</html>
